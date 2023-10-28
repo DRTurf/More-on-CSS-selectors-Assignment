@@ -1,0 +1,43 @@
+/* B */
+/* Q1 */
+li>a{
+    color: red;
+}
+/* Q2 */
+nav>h2{
+    background-color: blue;
+    color: white;
+}
+/* Q3 */
+p:first-child{
+    color: red;
+}
+/* C */
+/* Q1 */
+a[href]{
+    color:red;
+    text-decoration: none;
+}
+/* Q2 */
+li>.active{
+    color: blue;
+    text-decoration: underline;
+}
+/* Q3 */
+a[target="_self"]{
+    background-color: orangered;
+}
+/* D */
+/* Q1 */
+p:last-child::after{
+    content: "...";
+}
+/* Q2 */
+li::marker{
+    color:blueviolet;
+}
+/* Q3 */
+p:nth-child(2n)::first-letter{
+    color: chartreuse;
+    font-size: 32px;
+}
